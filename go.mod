@@ -1,3 +1,3 @@
-module git.tsdev.tech/TS/traefik
+module github.com/vigilov/traefik
 
 go 1.18
