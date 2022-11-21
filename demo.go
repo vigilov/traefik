@@ -61,5 +61,6 @@ func (a *Demo) ServeHTTP(rw http.ResponseWriter, req *http.Request) {
 		req.Header.Set(key, writer.String())
 	}
 
+	fmt.Println("new version")
 	a.next.ServeHTTP(rw, req)
 }
